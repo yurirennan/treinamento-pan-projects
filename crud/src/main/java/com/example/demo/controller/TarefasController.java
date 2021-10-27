@@ -54,6 +54,11 @@ public class TarefasController {
 		return ResponseEntity.ok(tarefasRepository.findAllByTarefaContainingIgnoreCase(tarefa));
 	}
 
-
+	@PutMapping("/atualizar/tab/{id}")
+	public TarefasModel atualizar(@PathVariable Long id, @RequestBody TarefasModel tarefasModel) {
+		tarefasModel.setId(id);
+		tarefasRepository.save(tarefasModel);
+		return tarefasModel;
+	}
 
 }

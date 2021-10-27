@@ -25,4 +25,19 @@ public class ClienteController {
     public ResponseEntity<ClienteModel> save(@RequestBody ClienteModel cliente) {
         return ResponseEntity.status(HttpStatus.CREATED).body(this.clienteRepository.save(cliente));
     }
+
+    @GetMapping("/listar/pessoas-fisicas/{tipo}")
+    public ResponseEntity<List<ClienteModel>> filtroId(@PathVariable Integer tipo){
+        return ResponseEntity.ok(clienteRepository.procuraPessoasFísicas(tipo));
+    }
+
+    @GetMapping("/listar/clientes/sql/alfabetico")
+    public List<ClienteModel> procuraTodosAlfabetico() {
+        return clienteRepository.procuraTodosAlfabetico();
+    }
+
+    @GetMapping("/listar/clientes/sql")
+    public List<ClienteModel> procuraTodos() {
+        return clienteRepository.procuraTodos();
+    }
 }
