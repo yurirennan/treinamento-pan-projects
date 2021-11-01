@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd76e661-1a55-438f-8b4e-aae6521863e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../join/src/main/java/com/yuri/join/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../crud/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../crud/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../crud/src/main/java/com/example/demo/controller/ClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../crud/src/main/java/com/example/demo/controller/ClienteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../crud/src/main/java/com/example/demo/controller/TarefasController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../crud/src/main/java/com/example/demo/controller/TarefasController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../crud/src/main/java/com/example/demo/repository/ClienteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../crud/src/main/java/com/example/demo/repository/ClienteRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../crud/src/main/java/com/example/demo/repository/TarefasRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../crud/src/main/java/com/example/demo/repository/TarefasRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../crud/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../crud/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aulateste" beforeDir="false" afterPath="$PROJECT_DIR$/../aulateste" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +72,7 @@
       <workItem from="1635207366420" duration="4059000" />
       <workItem from="1635254502849" duration="6000" />
       <workItem from="1635366771527" duration="13000" />
+      <workItem from="1635464359380" duration="44000" />
     </task>
     <servers />
   </component>
